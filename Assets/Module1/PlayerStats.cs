@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
+    public string playerName = "";
     public int health = 100;
     public int mana = 50;
     public int experience = 0;
