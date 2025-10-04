@@ -34,12 +34,12 @@ public class GameObjective : MonoBehaviour
         gamesComplete += 1;
         PlayerPrefs.SetInt(key, gamesComplete);
         PlayerPrefs.Save();
-        Debug.Log("Level complete" + gamesComplete);
+        //Debug.Log("Level complete" + gamesComplete);
 
         if (gamesComplete > 2)
         {
             //returns the value to zero and owns the player :)
-            Debug.Log("Loading gag..");
+            //Debug.Log("Loading gag..");
             gamesComplete = 0;
             PlayerPrefs.SetInt(key, gamesComplete);
             PlayerPrefs.Save();
