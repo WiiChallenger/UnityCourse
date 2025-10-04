@@ -705,6 +705,10 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 13
       objectReference: {fileID: 0}
+    - target: {fileID: 3292005991159042256, guid: 6b65fb8b96850a346bb731a85e94a01d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2080c5c3f9a1cd74cbe2030e857b39d7, type: 2}
     - target: {fileID: 6210847102940655551, guid: 6b65fb8b96850a346bb731a85e94a01d, type: 3}
       propertyPath: moveSpeed
       value: 5
@@ -715,15 +719,15 @@ PrefabInstance:
       objectReference: {fileID: 914266990}
     - target: {fileID: 6609804667317078735, guid: 6b65fb8b96850a346bb731a85e94a01d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.39
+      value: 12.77789
       objectReference: {fileID: 0}
     - target: {fileID: 6609804667317078735, guid: 6b65fb8b96850a346bb731a85e94a01d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.07
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6609804667317078735, guid: 6b65fb8b96850a346bb731a85e94a01d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.25
+      value: -12.54226
       objectReference: {fileID: 0}
     - target: {fileID: 6609804667317078735, guid: 6b65fb8b96850a346bb731a85e94a01d, type: 3}
       propertyPath: m_LocalRotation.w
